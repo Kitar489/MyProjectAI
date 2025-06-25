@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🩸 เลือกรับโมเดล AI ที่คำนึงถึงความเป็นส่วนตัว</title>
+  <link rel="stylesheet" href="../style2.css">
+  <style>
+    /* พื้นหลังภาพทั่วหน้า */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans Thai', sans-serif;
+      background: url('../vvv.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    /* กล่องเนื้อหาโปร่งใส */
+    .container {
+      background-color: rgba(255,255,255,0.9);
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      animation: fadeIn 0.5s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .accordion details {
+      background: #f9f9f9;
+      border-radius: 8px;
+      margin: 12px 0;
+      padding: 12px 16px;
+      transition: background 0.3s;
+    }
+    .accordion summary {
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+    .accordion details[open] {
+      background: #e3f2fd;
+    }
+    .accordion p, .accordion ul {
+      margin-top: 8px;
+      line-height: 1.6;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: #1565c0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .back-btn:hover {
+      background: #0d47a1;
+    }
+    .active-item {
+      background-color: #e3f2fd !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🩸 เลือกรับโมเดล AI ที่คำนึงถึงความเป็นส่วนตัว</h1>
+    <p>การเลือกใช้โมเดล AI ที่ออกแบบมาคำนึงถึงความปลอดภัยและความเป็นส่วนตัว จะช่วยลดความเสี่ยงในการรั่วไหลของข้อมูลสำคัญของคุณ</p>
+
+    <div class="accordion">
+      <details>
+        <summary>❓ ทำไมต้องคัดเลือกโมเดล AI</summary>
+        <p>โมเดล AI แต่ละตัวมีนโยบายด้านความเป็นส่วนตัวและการเข้ารหัสข้อมูลที่แตกต่างกัน เลือกใช้เฉพาะผู้ให้บริการที่น่าเชื่อถือเพื่อปกป้องข้อมูลของคุณ</p>
+      </details>
+      <details>
+        <summary>🔎 เกณฑ์ในการเลือกโมเดล</summary>
+        <ul>
+          <li>รองรับการเข้ารหัสข้อมูล (Encryption)</li>
+          <li>มีนโยบายไม่เก็บข้อมูลผู้ใช้เกินจำเป็น</li>
+          <li>สามารถควบคุมการเข้าถึงและลบข้อมูลได้</li>
+          <li>ได้รับการรับรองจากองค์กรมาตรฐานความปลอดภัย</li>
+        </ul>
+      </details>
+      <details>
+        <summary>✅ ตัวอย่างโมเดลที่แนะนำ</summary>
+        <ul>
+          <li>OpenAI GPT-4 Enterprise รุ่นที่มี Data Shield</li>
+          <li>Google PaLM API with Confidential Computing</li>
+          <li>Microsoft Azure OpenAI Service (with Private Endpoints)</li>
+        </ul>
+      </details>
+      <details>
+        <summary>🛠️ วิธีทดสอบและตรวจสอบ</summary>
+        <p>ใช้เครื่องมือ audit API ดูหัวข้อ Privacy Policy หรือทำ penetration test เล็กๆ เพื่อดูการส่งข้อมูล network ว่ามีการเข้ารหัสหรือไม่</p>
+      </details>
+    </div>
+
+    <a href="../main.html" class="back-btn">⬅️ กลับหน้าหลัก</a>
+</div>
+</body>
+</html>
